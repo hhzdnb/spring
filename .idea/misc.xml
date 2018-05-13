@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/springboot-jsp/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-log/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-druid/pom.xml" />
       </list>
     </option>
   </component>

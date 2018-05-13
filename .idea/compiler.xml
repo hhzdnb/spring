@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-demo" />
+        <module name="springboot-druid" />
         <module name="springboot-helloworld" />
         <module name="springboot-jpa" />
         <module name="springboot-jsp" />
@@ -16,6 +17,7 @@
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="spring-boot-demo" target="1.8" />
+      <module name="springboot-druid" target="1.8" />
       <module name="springboot-helloworld" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
       <module name="springboot-jps" target="1.8" />
