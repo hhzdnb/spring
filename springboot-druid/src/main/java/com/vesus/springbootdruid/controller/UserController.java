@@ -18,4 +18,6 @@ public class UserController {
     public List<User> getUserList(){
         return userService.findAll() ;
     }
+
+
 }

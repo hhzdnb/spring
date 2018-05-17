@@ -12,6 +12,7 @@
         <module name="springboot-jpa" />
         <module name="springboot-jsp" />
         <module name="springboot-log" />
+        <module name="springboot-redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +24,7 @@
       <module name="springboot-jps" target="1.8" />
       <module name="springboot-jsp" target="1.8" />
       <module name="springboot-log" target="1.8" />
+      <module name="springboot-redis" target="1.8" />
       <module name="springboot-web-jsp" target="1.8" />
     </bytecodeTargetLevel>
   </component>

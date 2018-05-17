@@ -1,8 +1,6 @@
-package com.vesus.springbootdruid.service;
+package com.vesus.springbootredis.service;
 
-
-
-import com.vesus.springbootdruid.model.User;
+import com.vesus.springbootredis.model.User;
 
 import java.util.List;
 
@@ -10,7 +8,7 @@ public interface UserService {
 
     public List<User> findAll();
 
-    public void saveUser(User user);
+    public void saveUser(User book);
 
     public User findOne(long id);
 
