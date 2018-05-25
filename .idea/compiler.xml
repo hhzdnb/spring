@@ -13,6 +13,7 @@
         <module name="springboot-jsp" />
         <module name="springboot-jwt" />
         <module name="springboot-log" />
+        <module name="springboot-oauth2" />
         <module name="springboot-redis" />
       </profile>
     </annotationProcessing>
@@ -26,6 +27,7 @@
       <module name="springboot-jsp" target="1.8" />
       <module name="springboot-jwt" target="1.8" />
       <module name="springboot-log" target="1.8" />
+      <module name="springboot-oauth2" target="1.8" />
       <module name="springboot-redis" target="1.8" />
       <module name="springboot-web-jsp" target="1.8" />
     </bytecodeTargetLevel>
