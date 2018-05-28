@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-demo" />
         <module name="springboot-druid" />
+        <module name="springboot-fastdfs" />
         <module name="springboot-helloworld" />
         <module name="springboot-jpa" />
         <module name="springboot-jsp" />
@@ -15,12 +16,14 @@
         <module name="springboot-log" />
         <module name="springboot-oauth2" />
         <module name="springboot-redis" />
+        <module name="springboot-websocket" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="spring-boot-demo" target="1.8" />
       <module name="springboot-druid" target="1.8" />
+      <module name="springboot-fastdfs" target="1.8" />
       <module name="springboot-helloworld" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
       <module name="springboot-jps" target="1.8" />
@@ -30,6 +33,7 @@
       <module name="springboot-oauth2" target="1.8" />
       <module name="springboot-redis" target="1.8" />
       <module name="springboot-web-jsp" target="1.8" />
+      <module name="springboot-websocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

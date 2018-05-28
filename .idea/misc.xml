@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/springboot-redis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-jwt/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-fastdfs/pom.xml" />
       </list>
     </option>
   </component>
