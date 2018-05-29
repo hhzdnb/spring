@@ -2,9 +2,9 @@
 <html>
 <head>
     <title>WebScoket广播式</title>
-    <script src="/sockjs.min.js"></script>
-    <script src="/stomp.min.js"></script>
-    <script src="/jquery.min.js"></script>
+    <script src="/sockjs.js"></script>
+    <script src="/stomp.js"></script>
+    <script src="/jquery.js"></script>
 </head>
 <body onload="disconnect()">
 <button id="connect" onclick="connect()">连接</button>
@@ -31,13 +31,13 @@
     //连接
     function connect()
     {
-        var socket = new SockJS("/endpointWisely");
+        var socket = new SockJS("/api/v1/socket");
         stompClient = Stomp.over(socket);
         stompClient.connect({},function (frame) {
             setConnected(true);
             console.log("connected : "+frame);
-            stompClient.subscribe("/topic/getResponse",function (response) {
-                showResponse(JSON.parse(response.body).responseMessage);
+            stompClient.subscribe("/api/v1/socket/send",function (response) {
+                showResponse(JSON.parse(response.body));
             })
         })
     }
@@ -53,7 +53,7 @@
     //发送名称到后台
     function sendName(){
         var name = $("#name").val();
-        stompClient.send("/welcome",{},JSON.stringify({'name':name}));
+        stompClient.send("/api/v1/socket/req/message",{},JSON.stringify({'message':name}));
     }
     //显示socket返回消息内容
     function showResponse(message)
