@@ -26,16 +26,8 @@ public class WebSocketController {
     public String index(){
         return "index";
     }
-//
-//    @MessageMapping("/hello")
-//    public void toTopic(RequestMessage msg) {
-//        System.out.println(msg.getMessage());
-//        this.messagingTemplate.convertAndSend("/topic/hello",msg.getMessage());
-////      return "消息内容："+ msg.getName()+"--"+msg.getMsg();
-//    }
 
     @MessageMapping("/welcome")
-//    @SendTo("/topic/getResponse")
     public ResponseMessage toTopic(RequestMessage msg) throws Exception
     {
         System.out.println("======================"+msg.getMessage());

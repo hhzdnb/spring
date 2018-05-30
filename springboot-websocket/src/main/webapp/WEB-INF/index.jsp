@@ -36,7 +36,7 @@
         stompClient.connect({},function (frame) {
             setConnected(true);
             console.log("connected : "+frame);
-            stompClient.subscribe("/api/v1/socket/send",function (response) {
+            stompClient.subscribe('/user/' + 123 + '/message',function (response) {
                 showResponse(JSON.parse(response.body));
             })
         })

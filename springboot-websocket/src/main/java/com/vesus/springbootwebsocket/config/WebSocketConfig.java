@@ -32,9 +32,13 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
      * 启动Broker，消息的发送的地址符合配置的前缀来的消息才发送到这个broker
      */
     public void configureMessageBroker(MessageBrokerRegistry registry) {
-        registry.enableSimpleBroker("/api/v1/socket/send");//推送消息前缀
+        registry.enableSimpleBroker("/api/v1/socket/send","/user/");//推送消息前缀
         registry.setApplicationDestinationPrefixes("/api/v1/socket/req");//应用请求前缀
         registry.setUserDestinationPrefix("/user");//推送用户前缀
+
+//        registry.enableSimpleBroker("/topic","/user");
+//        registry.setUserDestinationPrefix("/user/");
+//        registry.setApplicationDestinationPrefixes("/app");//走@messageMapping
     }
 
 }
