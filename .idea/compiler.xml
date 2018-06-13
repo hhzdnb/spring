@@ -17,6 +17,7 @@
         <module name="springboot-oauth2" />
         <module name="springboot-redis" />
         <module name="springboot-websocket" />
+        <module name="springtomcat" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +35,7 @@
       <module name="springboot-redis" target="1.8" />
       <module name="springboot-web-jsp" target="1.8" />
       <module name="springboot-websocket" target="1.8" />
+      <module name="springtomcat" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

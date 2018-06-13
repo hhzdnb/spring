@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-oauth2/springboot-oauth2.iml" filepath="$PROJECT_DIR$/springboot-oauth2/springboot-oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-redis/springboot-redis.iml" filepath="$PROJECT_DIR$/springboot-redis/springboot-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" filepath="$PROJECT_DIR$/springboot-websocket/springboot-websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springtomcat/springtomcat.iml" filepath="$PROJECT_DIR$/springtomcat/springtomcat.iml" />
     </modules>
   </component>
 </project>
