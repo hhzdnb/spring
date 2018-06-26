@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/springboot-websocket/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-fastdfs/pom.xml" />
         <option value="$PROJECT_DIR$/springtomcat/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-history/pom.xml" />
       </list>
     </option>
   </component>
