@@ -1,6 +1,5 @@
 package com.vesus;
 
-import com.vesus.audit.AuditOperationRecord;
 import com.vesus.audit.AuditOperationRecordAware;
 import com.vesus.audit.AuditOperationRecordAwareImpl;
 import com.vesus.listener.CustomAuditor;

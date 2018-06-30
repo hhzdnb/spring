@@ -1,7 +1,6 @@
 package com.vesus.domain;
 
 
-import javax.persistence.*;
 @Entity
 @Table(name = "t_audit_record_log")
 public class AuditRecordLog {

@@ -10,6 +10,8 @@
         <module name="springboot-druid" />
         <module name="springboot-fastdfs" />
         <module name="springboot-helloworld" />
+        <module name="springboot-hibernate-interceptoer" />
+        <module name="springboot-hibernate-listener-audit" />
         <module name="springboot-history" />
         <module name="springboot-jpa" />
         <module name="springboot-jsp" />
@@ -27,6 +29,8 @@
       <module name="springboot-druid" target="1.8" />
       <module name="springboot-fastdfs" target="1.8" />
       <module name="springboot-helloworld" target="1.8" />
+      <module name="springboot-hibernate-interceptoer" target="1.8" />
+      <module name="springboot-hibernate-listener-audit" target="1.8" />
       <module name="springboot-history" target="1.8" />
       <module name="springboot-jpa" target="1.8" />
       <module name="springboot-jps" target="1.8" />

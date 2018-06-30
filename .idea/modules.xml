@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/springboot-druid/springboot-druid.iml" filepath="$PROJECT_DIR$/springboot-druid/springboot-druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-fastdfs/springboot-fastdfs.iml" filepath="$PROJECT_DIR$/springboot-fastdfs/springboot-fastdfs.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-helloworld/springboot-helloworld.iml" filepath="$PROJECT_DIR$/springboot-helloworld/springboot-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-hibernate-interceptoer/springboot-hibernate-interceptoer.iml" filepath="$PROJECT_DIR$/springboot-hibernate-interceptoer/springboot-hibernate-interceptoer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-hibernate-listener-audit/springboot-hibernate-listener-audit.iml" filepath="$PROJECT_DIR$/springboot-hibernate-listener-audit/springboot-hibernate-listener-audit.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-history/springboot-history.iml" filepath="$PROJECT_DIR$/springboot-history/springboot-history.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" filepath="$PROJECT_DIR$/springboot-jpa/springboot-jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-jsp/springboot-jsp.iml" filepath="$PROJECT_DIR$/springboot-jsp/springboot-jsp.iml" />
