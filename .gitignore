@@ -27,4 +27,4 @@ LOG_PATH_IS_UNDEFINED/
 ###  customer ###
 *.log
 *.gitignore
-LOG_PATH_IS_UNDEFINED/
+/.idea/*
