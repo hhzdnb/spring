@@ -16,6 +16,8 @@
         <option value="$PROJECT_DIR$/springboot-fastdfs/pom.xml" />
         <option value="$PROJECT_DIR$/springtomcat/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-history/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-hibernate-interceptoer/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-hibernate-listener-audit/pom.xml" />
       </list>
     </option>
   </component>
